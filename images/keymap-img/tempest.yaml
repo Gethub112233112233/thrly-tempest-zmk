@@ -5,7 +5,7 @@ layers:
   - Y
   - O
   - U
-  - {t: ▽, type: trans}
+  - {t: '''', h: Sft+'}
   - K
   - D
   - C
@@ -16,7 +16,7 @@ layers:
   - I
   - E
   - A
-  - {t: ▽, type: trans}
+  - {t: ',', h: ;, s: <}
   - M
   - T
   - S
@@ -24,10 +24,10 @@ layers:
   - N
   - {t: ▽, type: trans}
   - X
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: (, h: '#'}
+  - {t: ), h: '"'}
+  - {t: ., h: ':'}
+  - {t: '?', h: Sft+!}
   - W
   - G
   - F
@@ -35,12 +35,12 @@ layers:
   - Z
   - ESC
   - {t: '1', h: sticky}
-  - BSPC
+  - {t: ⌫, h: Ctl+BSPC}
   - ⎵
-  - ENTER
-  - {t: ▽, type: trans}
+  - ↹
+  - {t: ENTER, h: Ctl+ENTER}
   '1':
-  - {t: ▽, type: trans}
+  - {t: '2', h: toggle}
   - {t: ▽, type: trans}
   - ↑
   - {t: ▽, type: trans}
@@ -74,6 +74,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '2':
+  - £
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '2', h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
