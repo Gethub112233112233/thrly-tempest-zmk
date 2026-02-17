@@ -1,11 +1,11 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  '0':
+  sentences:
   - B
   - Y
   - O
   - U
-  - {t: '''', h: Sft+'}
+  - {t: '''', h: Sft+2}
   - K
   - D
   - C
@@ -25,7 +25,7 @@ layers:
   - {t: ▽, type: trans}
   - X
   - {t: (, h: '#'}
-  - {t: ), h: '"'}
+  - {t: ), h: Sft+'}
   - {t: ., h: ':'}
   - {t: '?', h: Sft+!}
   - W
@@ -33,17 +33,56 @@ layers:
   - F
   - J
   - Z
-  - ESC
-  - {t: '1', h: sticky}
+  - {t: numbers, h: toggle}
+  - {t: editing, h: sticky}
   - {t: ⌫, h: Ctl+BSPC}
   - ⎵
   - ↹
   - {t: ENTER, h: Ctl+ENTER}
-  '1':
-  - {t: '2', h: toggle}
+  numbers:
+  - £
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - {t: ., h: ','}
+  - {t: ▽, type: trans}
+  - '-'
+  - {t: /, s: '?'}
+  - +
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - '%'
+  - '>'
+  - {t: ▽, type: trans}
+  - {t: numbers, h: toggle}
+  - editing
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  editing:
+  - {t: ▽, type: trans}
+  - Ctl+F
   - ↑
-  - {t: ▽, type: trans}
+  - Ctl+S
   - ⌦
   - Ctl+Alt+⌦
   - {t: ▽, type: trans}
@@ -51,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Z
   - ←
   - ↓
   - →
@@ -63,57 +102,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
-  - £
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '2', h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

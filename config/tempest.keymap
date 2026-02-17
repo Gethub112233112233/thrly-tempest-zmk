@@ -36,30 +36,30 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+        sentences {
             bindings = <
-        &kp B  &kp Y                      &kp O                          &kp U                     &mt LS(SQT) SQT               &kp K      &kp D    &kp C                &kp L  &kp P
-&trans  &kp H  &kp I                      &kp E                          &kp A                     &mt SEMICOLON COMMA           &kp M      &kp T    &kp S                &kp R  &kp N  &trans
-        &kp X  &mt HASH LEFT_PARENTHESIS  &mt AT_SIGN RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &kp W      &kp G    &kp F                &kp J  &kp Z
-                                          &kp ESC                        &sl 1                     &mt LC(BSPC) BACKSPACE        &kp SPACE  &kp TAB  &mt LC(ENTER) ENTER
+        &kp B  &kp Y                             &kp O                          &kp U                     &mt LS(NUMBER_2) SQT          &kp K      &kp D    &kp C                &kp L  &kp P
+&trans  &kp H  &kp I                             &kp E                          &kp A                     &mt SEMICOLON COMMA           &kp M      &kp T    &kp S                &kp R  &kp N  &trans
+        &kp X  &mt NON_US_HASH LEFT_PARENTHESIS  &mt LS(SQT) RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &kp W      &kp G    &kp F                &kp J  &kp Z
+                                                 &tog 1                         &sl 2                     &mt LC(BSPC) BACKSPACE        &kp SPACE  &kp TAB  &mt LC(ENTER) ENTER
             >;
         };
 
-        layer_1 {
+        numbers {
             bindings = <
-        &tog 2  &trans    &kp UP_ARROW  &trans     &kp DELETE    &kp LC(LA(DELETE))  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp CAPSLOCK  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans
-        &trans  &trans    &trans        &trans     &trans        &trans              &trans  &trans  &trans  &trans
-                          &trans        &trans     &trans        &trans              &trans  &trans
+        &kp LS(NUMBER_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans  &trans         &kp ASTERISK  &trans            &trans
+&trans  &kp N0            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mt COMMA PERIOD  &trans  &kp MINUS      &kp SLASH     &kp PLUS          &kp EQUAL  &trans
+        &trans            &kp N7        &kp N8        &kp N9        &trans            &trans  &kp LESS_THAN  &kp PERCENT   &kp GREATER_THAN  &trans
+                                        &tog 1        &mo 2         &trans            &trans  &trans         &trans
             >;
         };
 
-        layer_2 {
+        editing {
             bindings = <
-        &kp LS(NUMBER_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans            &kp N7        &kp N8        &kp N9        &trans  &trans  &trans  &trans  &trans  &trans
-                                        &tog 2        &trans        &trans  &trans  &trans  &trans
+        &trans     &kp LC(F)  &kp UP_ARROW  &kp LC(S)  &kp DELETE    &kp LC(LA(DELETE))  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp CAPSLOCK  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans        &trans              &trans  &trans  &trans  &trans
+                              &kp ESCAPE    &trans     &kp ENTER     &trans              &trans  &trans
             >;
         };
     };
