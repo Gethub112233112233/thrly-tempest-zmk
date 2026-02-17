@@ -8,6 +8,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 /*       0   1   2   3   4      ||    5   6   7   8   9 */
@@ -20,6 +21,16 @@
         compatible = "zmk,combos";
 
         /* combos on base layer, left side, for boot shortcuts like BIOS with half the keyboard plugged in */
+
+        v {
+            bindings = <&mt LS(V) V>;
+            key-positions = <6 7>;
+        };
+
+        q {
+            bindings = <&mt LS(Q) Q>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
@@ -27,10 +38,19 @@
 
         layer_0 {
             bindings = <
-        &kp B  &kp Y   &kp O   &kp U   &trans  &kp K   &kp D   &kp C   &kp L  &kp P
-&trans  &kp H  &kp I   &kp E   &kp A   &trans  &kp M   &kp T   &kp S   &kp R  &kp N  &trans
-        &kp X  &trans  &trans  &trans  &trans  &kp W   &kp G   &kp F   &kp J  &kp Z
-                       &trans  &trans  &trans  &trans  &trans  &trans
+        &kp B  &kp Y   &kp O    &kp U   &trans    &kp K      &kp D      &kp C   &kp L  &kp P
+&trans  &kp H  &kp I   &kp E    &kp A   &trans    &kp M      &kp T      &kp S   &kp R  &kp N  &trans
+        &kp X  &trans  &trans   &trans  &trans    &kp W      &kp G      &kp F   &kp J  &kp Z
+                       &kp ESC  &sl 1   &kp BSPC  &kp SPACE  &kp ENTER  &trans
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+        &trans  &trans    &kp UP_ARROW  &trans     &kp DELETE    &kp LC(LA(DELETE))  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp CAPSLOCK  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans
+        &trans  &trans    &trans        &trans     &trans        &trans              &trans  &trans  &trans  &trans
+                          &trans        &trans     &trans        &trans              &trans  &trans
             >;
         };
     };
