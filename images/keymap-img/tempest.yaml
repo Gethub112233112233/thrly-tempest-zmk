@@ -34,14 +34,14 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - ''
-  - {t: ESC, h: higherlayer}
   - ⌫
+  - {t: ESC, h: higherlayer}
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
   - ''
   higherlayer:
-  - Ctl+L
-  - Ctl+F
+  - {t: ▽, type: trans}
+  - Ctl+Z
   - ↑
   - Ctl+S
   - ⌦
@@ -51,7 +51,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - ''
-  - Ctl+Z
+  - Ctl+F
   - ←
   - ↓
   - →
@@ -73,8 +73,8 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
