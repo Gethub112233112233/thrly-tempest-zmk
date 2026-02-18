@@ -16,10 +16,7 @@
 /*       22  23  24  25  26     ||    27  28  29  30  31 */
 /*                   32 33 34   ||  35 36 37 */
 
-&mt {
-    tapping-term-ms = <210>;
-    flavor = "balanced";
-};
+&mt { flavor = "tap-preferred"; };
 
 / {
     combos {
@@ -31,74 +28,74 @@
             bindings = <&mt LS(V) V>;
             key-positions = <6 7>;
             layers = <0>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         q {
             bindings = <&mt LS(Q) Q>;
             key-positions = <7 8>;
             layers = <0>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         tilde {
             bindings = <&kp LS(NON_US_HASH)>;
             key-positions = <1 2>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         gbp-usd {
             bindings = <&mt LS(NUMBER_4) LS(NUMBER_3)>;
             key-positions = <2 3>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         forwardslash {
             bindings = <&kp SLASH>;
             key-positions = <12 13>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <13 14>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         lessthan {
             bindings = <&kp LESS_THAN>;
             key-positions = <23 24>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         greaterthan {
             bindings = <&kp GREATER_THAN>;
             key-positions = <24 25>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
-        minus {
-            bindings = <&kp MINUS>;
+        minus-underscore {
+            bindings = <&mt LS(MINUS) MINUS>;
             key-positions = <17 18>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
-        asterisk {
-            bindings = <&kp ASTERISK>;
+        asterisk-caret {
+            bindings = <&mt CARET ASTERISK>;
             key-positions = <18 19>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <28 29>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <29 30>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
         };
     };
 
