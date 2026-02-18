@@ -11,7 +11,7 @@ layers:
   - {t: C, h: Sft+C}
   - {t: L, h: Sft+L}
   - {t: P, h: Sft+P}
-  - {t: ▽, type: trans}
+  - ''
   - {t: H, h: Sft+H}
   - {t: I, h: Sft+I}
   - {t: E, h: Sft+E}
@@ -22,7 +22,7 @@ layers:
   - {t: S, h: Sft+S}
   - {t: R, h: Sft+R}
   - {t: N, h: Sft+N}
-  - {t: ▽, type: trans}
+  - ''
   - {t: X, h: Sft+X}
   - {t: (, h: '#'}
   - {t: ), h: Sft+'}
@@ -33,12 +33,12 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - {t: ▽, type: trans}
+  - ''
   - {t: ESC, h: higherlayer}
   - {t: ⌫, h: Ctl+BSPC}
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
-  - {t: ▽, type: trans}
+  - ''
   higherlayer:
   - Ctl+L
   - Ctl+F
@@ -50,7 +50,7 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - Ctl+Z
   - ←
   - ↓
@@ -61,7 +61,7 @@ layers:
   - '5'
   - '6'
   - '0'
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - Ctl+X
   - Ctl+C
@@ -72,12 +72,12 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
 combos:
 - p: [6, 7]
   k: {t: V, h: Sft+V}
