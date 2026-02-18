@@ -25,11 +25,13 @@
         v {
             bindings = <&mt LS(V) V>;
             key-positions = <6 7>;
+            layers = <0>;
         };
 
         q {
             bindings = <&mt LS(Q) Q>;
             key-positions = <7 8>;
+            layers = <0>;
         };
     };
 
@@ -47,19 +49,19 @@
 
         numbers {
             bindings = <
-        &kp LS(NUMBER_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans  &trans         &kp ASTERISK  &trans            &trans
-&trans  &kp N0            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mt COMMA PERIOD  &trans  &kp MINUS      &kp SLASH     &kp PLUS          &kp EQUAL  &trans
-        &trans            &kp N7        &kp N8        &kp N9        &trans            &trans  &kp LESS_THAN  &kp PERCENT   &kp GREATER_THAN  &trans
-                                        &tog 1        &mo 2         &trans            &trans  &trans         &trans
+        &kp LS(NUMBER_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ESCAPE    &kp TILDE  &kp LESS_THAN     &kp ASTERISK  &kp GREATER_THAN  &trans
+&trans  &kp N0            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DELETE    &kp COMMA  &kp MINUS         &kp SLASH     &kp PLUS          &kp EQUAL  &trans
+        &trans            &kp N7        &kp N8        &kp N9        &kp CAPSLOCK  &trans     &mt COLON PERIOD  &kp PERCENT   &trans            &trans
+                                        &tog 1        &mo 2         &trans        &trans     &trans            &trans
             >;
         };
 
         editing {
             bindings = <
-        &trans     &kp LC(F)  &kp UP_ARROW  &kp LC(S)  &kp DELETE    &kp LC(LA(DELETE))  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp CAPSLOCK  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans        &trans              &trans  &trans  &trans  &trans
-                              &kp ESCAPE    &trans     &kp ENTER     &trans              &trans  &trans
+        &trans     &kp LC(F)  &kp UP_ARROW  &kp LC(S)  &trans     &kp LC(LA(DELETE))  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &trans     &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans     &trans              &trans  &trans  &trans  &trans
+                              &trans        &trans     &kp ENTER  &trans              &trans  &trans
             >;
         };
     };
