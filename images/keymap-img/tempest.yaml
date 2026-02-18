@@ -34,7 +34,7 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - {t: higher-layer, h: sticky}
+  - {t: ESC, h: higher-layer}
   - {t: ⌫, h: Ctl+BSPC}
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
@@ -55,7 +55,7 @@ layers:
   - ←
   - ↓
   - →
-  - ESC
+  - ENTER
   - BT CLR ALL
   - '4'
   - '5'
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ENTER
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,6 +84,7 @@ combos:
   l: [sentences-combosymbol]
 - p: [7, 8]
   k: {t: Q, h: Sft+Q}
+  l: [sentences-combosymbol]
 - p: [12, 13]
   k: '-'
 - p: [13, 14]
