@@ -17,7 +17,7 @@
 /*                   32 33 34   ||  35 36 37 */
 
 &mt {
-    tapping-term-ms = <220>;
+    tapping-term-ms = <225>;
     flavor = "balanced";
 };
 
@@ -31,62 +31,74 @@
             bindings = <&mt LS(V) V>;
             key-positions = <6 7>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         q {
             bindings = <&mt LS(Q) Q>;
             key-positions = <7 8>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         tilde {
             bindings = <&kp LS(NON_US_HASH)>;
             key-positions = <1 2>;
+            timeout-ms = <40>;
         };
 
         gbp-usd {
             bindings = <&mt LS(NUMBER_4) LS(NUMBER_3)>;
             key-positions = <2 3>;
+            timeout-ms = <40>;
         };
 
         forwardslash {
             bindings = <&kp SLASH>;
             key-positions = <12 13>;
+            timeout-ms = <40>;
         };
 
-        asterisk {
-            bindings = <&kp ASTERISK>;
+        plus {
+            bindings = <&kp PLUS>;
             key-positions = <13 14>;
+            timeout-ms = <40>;
         };
 
         lessthan {
             bindings = <&kp LESS_THAN>;
             key-positions = <23 24>;
+            timeout-ms = <40>;
         };
 
         greaterthan {
             bindings = <&kp GREATER_THAN>;
             key-positions = <24 25>;
+            timeout-ms = <40>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <17 18>;
+            timeout-ms = <40>;
         };
 
-        plus {
-            bindings = <&kp PLUS>;
+        asterisk {
+            bindings = <&kp ASTERISK>;
             key-positions = <18 19>;
+            timeout-ms = <40>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <28 29>;
+            timeout-ms = <40>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <29 30>;
+            timeout-ms = <40>;
         };
     };
 
@@ -98,7 +110,7 @@
        &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K    &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &none  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M    &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &none
        &mt LS(X) X  &mt NON_US_HASH LEFT_PARENTHESIS  &mt LS(SQT) RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &mt LS(W) W    &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                                      &none                          &lt 1 ESCAPE              &mt LC(BSPC) BACKSPACE        &mt TAB SPACE  &mt LC(ENTER) ENTER  &none
+                                                      &none                          &lt 1 ESCAPE              &kp BACKSPACE                 &mt TAB SPACE  &mt LC(ENTER) ENTER  &none
             >;
         };
 
