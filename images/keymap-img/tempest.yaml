@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  sentences:
+  sentences-combo-symbol:
   - {t: B, h: Sft+B}
   - {t: Y, h: Sft+Y}
   - {t: O, h: Sft+O}
@@ -33,83 +33,44 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - {t: numbers, h: toggle}
-  - {t: editing, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: higher-layer, h: sticky}
   - {t: ⌫, h: Ctl+BSPC}
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
-  - {t: numbers, h: toggle}
-  numbers:
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '~'
-  - '*'
-  - ^
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - {t: /, s: '?'}
-  - +
-  - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '%'
-  - '>'
-  - {t: ▽, type: trans}
-  - {t: numbers, h: toggle}
-  - editing
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: numbers, h: toggle}
-  editing:
+  higher-layer:
   - Ctl+L
   - Ctl+F
   - ↑
   - Ctl+S
   - ⌦
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Alt+⌦
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Z
   - ←
   - ↓
   - →
-  - Ctl+Alt+⌦
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - '4'
+  - '5'
+  - '6'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - ⇪ LOCK
   - {t: ESC, type: held}
@@ -120,7 +81,25 @@ layers:
 combos:
 - p: [6, 7]
   k: {t: V, h: Sft+V}
-  l: [sentences]
+  l: [sentences-combo-symbol]
 - p: [7, 8]
   k: {t: Q, h: Sft+Q}
-  l: [sentences]
+  l: [sentences-combo-symbol]
+- p: [2, 3]
+  k: '~'
+- p: [12, 13]
+  k: {t: /, h: '#', s: '?'}
+- p: [19, 20]
+  k: {t: '*', h: ^}
+- p: [13, 14]
+  k: {t: '-', h: _}
+- p: [17, 18]
+  k: {t: +, h: '&'}
+- p: [23, 24]
+  k: <
+- p: [29, 30]
+  k: '='
+- p: [24, 25]
+  k: '>'
+- p: [28, 29]
+  k: '%'

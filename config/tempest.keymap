@@ -17,7 +17,7 @@
 /*                   32 33 34   ||  35 36 37 */
 
 &mt {
-    tapping-term-ms = <250>;
+    tapping-term-ms = <225>;
     flavor = "balanced";
 };
 
@@ -38,35 +38,71 @@
             key-positions = <7 8>;
             layers = <0>;
         };
+
+        gbp {
+            bindings = <&kp LS(NON_US_HASH)>;
+            key-positions = <2 3>;
+        };
+
+        tilde-slash {
+            bindings = <&mt NON_US_HASH SLASH>;
+            key-positions = <12 13>;
+        };
+
+        caret-asterisk {
+            bindings = <&mt CARET ASTERISK>;
+            key-positions = <19 20>;
+        };
+
+        underscore-minus {
+            bindings = <&mt UNDER MINUS>;
+            key-positions = <13 14>;
+        };
+
+        ampersand-plus {
+            bindings = <&mt AMPERSAND PLUS>;
+            key-positions = <17 18>;
+        };
+
+        less {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <23 24>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <29 30>;
+        };
+
+        greater {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <24 25>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        sentences {
+        sentences-combo-symbol {
             bindings = <
         &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K    &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M    &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
         &mt LS(X) X  &mt NON_US_HASH LEFT_PARENTHESIS  &mt LS(SQT) RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &mt LS(W) W    &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                                       &tog 1                         &sl 2                     &mt LC(BSPC) BACKSPACE        &mt TAB SPACE  &mt LC(ENTER) ENTER  &tog 1
+                                                       &trans                         &sl 1                     &mt LC(BSPC) BACKSPACE        &mt TAB SPACE  &mt LC(ENTER) ENTER  &trans
             >;
         };
 
-        numbers {
+        higher-layer {
             bindings = <
-        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &kp LS(NON_US_HASH)  &kp ASTERISK  &kp CARET         &trans
-&trans  &kp N0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans  &kp MINUS            &kp SLASH     &kp PLUS          &kp EQUAL  &trans
-        &trans  &kp N7        &kp N8        &kp N9        &trans  &trans  &kp LESS_THAN        &kp PERCENT   &kp GREATER_THAN  &trans
-                              &tog 1        &mo 2         &trans  &trans  &trans               &tog 1
-            >;
-        };
-
-        editing {
-            bindings = <
-        &kp LC(L)  &kp LC(F)  &kp UP_ARROW  &kp LC(S)   &kp DELETE          &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT   &kp LC(LA(DELETE))  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)   &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans
-                              &kp CAPSLOCK  &kp ESCAPE  &kp ENTER           &trans  &trans  &trans
+        &kp LC(L)  &kp LC(F)  &kp UP_ARROW  &kp LC(S)   &kp DELETE  &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT   &trans      &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)   &trans      &trans              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &kp CAPSLOCK  &kp ESCAPE  &kp ENTER   &trans              &trans        &trans
             >;
         };
     };
