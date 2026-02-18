@@ -206,8 +206,8 @@ path.combo {
       stroke-dasharray: 4, 4;
       stroke-opacity: 0.3;
     }</style>
-<g transform="translate(30, 0)" class="layer-sentences-combosymbol">
-<text x="0" y="28" class="label" id="sentences-combosymbol">sentences-combosymbol</text>
+<g transform="translate(30, 0)" class="layer-sentence-symbolcombo">
+<text x="0" y="28" class="label" id="sentence-symbolcombo">sentence-symbolcombo</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -375,8 +375,8 @@ path.combo {
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#higher-layer">
-<text x="0" y="24" class="key hold layer-activator">higher-layer</text>
+<a href="#higherlayer">
+<text x="0" y="24" class="key hold layer-activator">higherlayer</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -442,8 +442,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 349)" class="layer-higher-layer">
-<text x="0" y="28" class="label" id="higher-layer">higher-layer</text>
+<g transform="translate(30, 349)" class="layer-higherlayer">
+<text x="0" y="28" class="label" id="higherlayer">higherlayer</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

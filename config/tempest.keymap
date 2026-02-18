@@ -83,7 +83,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        sentences-combosymbol {
+        sentence-symbolcombo {
             bindings = <
         &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K    &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M    &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
@@ -92,7 +92,7 @@
             >;
         };
 
-        higher-layer {
+        higherlayer {
             bindings = <
         &kp LC(L)  &kp LC(F)  &kp UP_ARROW  &kp LC(S)  &kp DELETE    &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
 &trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp ENTER     &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans

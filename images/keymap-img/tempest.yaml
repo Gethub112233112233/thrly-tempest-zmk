@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  sentences-combosymbol:
+  sentence-symbolcombo:
   - {t: B, h: Sft+B}
   - {t: Y, h: Sft+Y}
   - {t: O, h: Sft+O}
@@ -34,12 +34,12 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - {t: ESC, h: higher-layer}
+  - {t: ESC, h: higherlayer}
   - {t: ⌫, h: Ctl+BSPC}
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
-  higher-layer:
+  higherlayer:
   - Ctl+L
   - Ctl+F
   - ↑
@@ -81,10 +81,10 @@ layers:
 combos:
 - p: [6, 7]
   k: {t: V, h: Sft+V}
-  l: [sentences-combosymbol]
+  l: [sentence-symbolcombo]
 - p: [7, 8]
   k: {t: Q, h: Sft+Q}
-  l: [sentences-combosymbol]
+  l: [sentence-symbolcombo]
 - p: [12, 13]
   k: '-'
 - p: [13, 14]
