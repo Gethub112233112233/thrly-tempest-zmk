@@ -36,16 +36,16 @@ layers:
   - {t: numbers, h: toggle}
   - {t: editing, h: sticky}
   - {t: ⌫, h: Ctl+BSPC}
-  - ⎵
+  - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
-  - {t: ▽, type: trans}
+  - {t: numbers, h: toggle}
   numbers:
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - £
+  - {t: ▽, type: trans}
   - '~'
   - '*'
   - ^
@@ -77,14 +77,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: numbers, h: toggle}
   editing:
-  - {t: ▽, type: trans}
+  - Ctl+L
   - Ctl+F
   - ↑
   - Ctl+S
-  - ESC
-  - Ctl+Alt+⌦
+  - ⌦
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,8 +94,8 @@ layers:
   - ←
   - ↓
   - →
-  - ⌦
-  - BT CLR ALL
+  - Ctl+Alt+⌦
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,14 +105,14 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ⇪ LOCK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ESC, type: held}
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
