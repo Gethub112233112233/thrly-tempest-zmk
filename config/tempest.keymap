@@ -39,24 +39,24 @@
             layers = <0>;
         };
 
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <12 13>;
+        gbp {
+            bindings = <&kp LS(NON_US_HASH)>;
+            key-positions = <1 2>;
         };
 
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <13 14>;
+        tilde {
+            bindings = <&kp NON_US_HASH>;
+            key-positions = <2 3>;
         };
 
-        slash {
+        forwardslash {
             bindings = <&kp SLASH>;
-            key-positions = <17 18>;
+            key-positions = <12 13>;
         };
 
         asterisk {
             bindings = <&kp ASTERISK>;
-            key-positions = <18 19>;
+            key-positions = <13 14>;
         };
 
         lessthan {
@@ -67,6 +67,16 @@
         greaterthan {
             bindings = <&kp GREATER_THAN>;
             key-positions = <24 25>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <17 18>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <18 19>;
         };
 
         percent {
