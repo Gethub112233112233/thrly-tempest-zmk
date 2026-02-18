@@ -39,13 +39,13 @@
             layers = <0>;
         };
 
-        gbp {
+        tilde {
             bindings = <&kp LS(NON_US_HASH)>;
             key-positions = <1 2>;
         };
 
-        tilde {
-            bindings = <&kp NON_US_HASH>;
+        gbp-usd {
+            bindings = <&mt LS(NUMBER_4) LS(NUMBER_3)>;
             key-positions = <2 3>;
         };
 
