@@ -39,29 +39,34 @@
             layers = <0>;
         };
 
-        gbp {
-            bindings = <&kp LS(NON_US_HASH)>;
+        tilde {
+            bindings = <&kp NON_US_HASH>;
+            key-positions = <2 1>;
+        };
+
+        gbp-usd {
+            bindings = <&mt NUMBER_4 NUMBER_3>;
             key-positions = <2 3>;
-        };
-
-        tilde-slash {
-            bindings = <&mt NON_US_HASH SLASH>;
-            key-positions = <12 13>;
-        };
-
-        caret-asterisk {
-            bindings = <&mt CARET ASTERISK>;
-            key-positions = <19 20>;
         };
 
         underscore-minus {
             bindings = <&mt UNDER MINUS>;
+            key-positions = <12 13>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
             key-positions = <13 14>;
+        };
+
+        caret-asterisk {
+            bindings = <&mt CARET ASTERISK>;
+            key-positions = <17 18>;
         };
 
         ampersand-plus {
             bindings = <&mt AMPERSAND PLUS>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
 
         less {
@@ -69,18 +74,13 @@
             key-positions = <23 24>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <29 30>;
-        };
-
         greater {
             bindings = <&kp GREATER_THAN>;
             key-positions = <24 25>;
         };
 
-        percent {
-            bindings = <&kp PERCENT>;
+        equal {
+            bindings = <&kp EQUAL>;
             key-positions = <28 29>;
         };
     };
@@ -88,7 +88,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        sentences-combo-symbol {
+        sentences-combosymbol {
             bindings = <
         &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K    &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M    &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
@@ -99,10 +99,10 @@
 
         higher-layer {
             bindings = <
-        &kp LC(L)  &kp LC(F)  &kp UP_ARROW  &kp LC(S)   &kp DELETE  &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT   &trans      &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)   &trans      &trans              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &kp CAPSLOCK  &kp ESCAPE  &kp ENTER   &trans              &trans        &trans
+        &kp LC(L)  &kp LC(F)  &kp UP_ARROW  &kp LC(S)  &kp DELETE    &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp ESCAPE    &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp CAPSLOCK  &trans              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &kp ENTER     &trans              &trans        &trans
             >;
         };
     };
