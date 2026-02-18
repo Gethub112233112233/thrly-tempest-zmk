@@ -1,54 +1,54 @@
 layout: {zmk_keyboard: tempest}
 layers:
   sentences:
-  - B
-  - Y
-  - O
-  - U
+  - {t: B, h: Sft+B}
+  - {t: Y, h: Sft+Y}
+  - {t: O, h: Sft+O}
+  - {t: U, h: Sft+U}
   - {t: '''', h: Sft+2}
-  - K
-  - D
-  - C
-  - L
-  - P
+  - {t: K, h: Sft+K}
+  - {t: D, h: Sft+D}
+  - {t: C, h: Sft+C}
+  - {t: L, h: Sft+L}
+  - {t: P, h: Sft+P}
   - {t: ▽, type: trans}
-  - H
-  - I
-  - E
-  - A
+  - {t: H, h: Sft+H}
+  - {t: I, h: Sft+I}
+  - {t: E, h: Sft+E}
+  - {t: A, h: Sft+A}
   - {t: ',', h: ;, s: <}
-  - M
-  - T
-  - S
-  - R
-  - N
+  - {t: M, h: Sft+M}
+  - {t: T, h: Sft+T}
+  - {t: S, h: Sft+S}
+  - {t: R, h: Sft+R}
+  - {t: N, h: Sft+N}
   - {t: ▽, type: trans}
-  - X
+  - {t: X, h: Sft+X}
   - {t: (, h: '#'}
   - {t: ), h: Sft+'}
   - {t: ., h: ':'}
   - {t: '?', h: Sft+!}
-  - W
-  - G
-  - F
-  - J
-  - Z
+  - {t: W, h: Sft+W}
+  - {t: G, h: Sft+G}
+  - {t: F, h: Sft+F}
+  - {t: J, h: Sft+J}
+  - {t: Z, h: Sft+Z}
   - {t: numbers, h: toggle}
   - {t: editing, h: sticky}
   - {t: ⌫, h: Ctl+BSPC}
   - ⎵
-  - ↹
   - {t: ENTER, h: Ctl+ENTER}
+  - {t: ▽, type: trans}
   numbers:
-  - £
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
+  - £
   - '~'
-  - <
   - '*'
-  - '>'
+  - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -56,7 +56,7 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - {t: ',', s: <}
+  - {t: ▽, type: trans}
   - '-'
   - {t: /, s: '?'}
   - +
@@ -68,9 +68,9 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ., h: ':'}
+  - <
   - '%'
-  - {t: ▽, type: trans}
+  - '>'
   - {t: ▽, type: trans}
   - {t: numbers, h: toggle}
   - editing

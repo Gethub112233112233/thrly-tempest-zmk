@@ -40,19 +40,19 @@
 
         sentences {
             bindings = <
-        &kp B  &kp Y                             &kp O                          &kp U                     &mt LS(NUMBER_2) SQT          &kp K      &kp D    &kp C                &kp L  &kp P
-&trans  &kp H  &kp I                             &kp E                          &kp A                     &mt SEMICOLON COMMA           &kp M      &kp T    &kp S                &kp R  &kp N  &trans
-        &kp X  &mt NON_US_HASH LEFT_PARENTHESIS  &mt LS(SQT) RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &kp W      &kp G    &kp F                &kp J  &kp Z
-                                                 &tog 1                         &sl 2                     &mt LC(BSPC) BACKSPACE        &kp SPACE  &kp TAB  &mt LC(ENTER) ENTER
+        &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K  &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
+&trans  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M  &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
+        &mt LS(X) X  &mt NON_US_HASH LEFT_PARENTHESIS  &mt LS(SQT) RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &mt LS(W) W  &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
+                                                       &tog 1                         &sl 2                     &mt LC(BSPC) BACKSPACE        &kp SPACE    &mt LC(ENTER) ENTER  &trans
             >;
         };
 
         numbers {
             bindings = <
-        &kp LS(NUMBER_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp TILDE  &kp LESS_THAN     &kp ASTERISK  &kp GREATER_THAN  &trans
-&trans  &kp N0            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &kp COMMA  &kp MINUS         &kp SLASH     &kp PLUS          &kp EQUAL  &trans
-        &trans            &kp N7        &kp N8        &kp N9        &trans  &trans     &mt COLON PERIOD  &kp PERCENT   &trans            &trans
-                                        &tog 1        &mo 2         &trans  &trans     &trans            &trans
+        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp LS(NUMBER_3)  &kp LS(NON_US_HASH)  &kp ASTERISK  &kp CARET         &trans
+&trans  &kp N0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans            &kp MINUS            &kp SLASH     &kp PLUS          &kp EQUAL  &trans
+        &trans  &kp N7        &kp N8        &kp N9        &trans  &trans            &kp LESS_THAN        &kp PERCENT   &kp GREATER_THAN  &trans
+                              &tog 1        &mo 2         &trans  &trans            &trans               &trans
             >;
         };
 
