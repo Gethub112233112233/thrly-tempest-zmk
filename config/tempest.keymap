@@ -17,7 +17,7 @@
 /*                   32 33 34   ||  35 36 37 */
 
 &mt {
-    tapping-term-ms = <225>;
+    tapping-term-ms = <220>;
     flavor = "balanced";
 };
 
@@ -36,36 +36,25 @@
         q {
             bindings = <&mt LS(Q) Q>;
             key-positions = <7 8>;
-            layers = <0>;
         };
 
-        tilde {
-            bindings = <&kp NON_US_HASH>;
-            key-positions = <2 1>;
-        };
-
-        gbp-usd {
-            bindings = <&mt NUMBER_4 NUMBER_3>;
-            key-positions = <2 3>;
-        };
-
-        underscore-minus {
-            bindings = <&mt UNDER MINUS>;
+        minus {
+            bindings = <&kp MINUS>;
             key-positions = <12 13>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <13 14>;
         };
 
         slash {
             bindings = <&kp SLASH>;
-            key-positions = <13 14>;
-        };
-
-        caret-asterisk {
-            bindings = <&mt CARET ASTERISK>;
             key-positions = <17 18>;
         };
 
-        ampersand-plus {
-            bindings = <&mt AMPERSAND PLUS>;
+        asterisk {
+            bindings = <&kp ASTERISK>;
             key-positions = <18 19>;
         };
 
@@ -79,9 +68,14 @@
             key-positions = <24 25>;
         };
 
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <28 29>;
+        };
+
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
         };
     };
 
