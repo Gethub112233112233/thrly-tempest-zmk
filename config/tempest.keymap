@@ -24,85 +24,55 @@
 
         /* combos on base layer, left side, for boot shortcuts like BIOS with half the keyboard plugged in */
 
-        v {
+        Vv {
             bindings = <&mt LS(V) V>;
             key-positions = <6 7>;
             layers = <0>;
             require-prior-idle-ms = <120>;
         };
 
-        q {
+        Qq {
             bindings = <&mt LS(Q) Q>;
             key-positions = <7 8>;
             layers = <0>;
             require-prior-idle-ms = <120>;
         };
 
-        tilde {
-            bindings = <&kp LS(NON_US_HASH)>;
-            key-positions = <1 2>;
-            require-prior-idle-ms = <120>;
-        };
-
-        gbp-usd {
+        usd-gbp {
             bindings = <&mt LS(NUMBER_4) LS(NUMBER_3)>;
-            key-positions = <2 3>;
-            require-prior-idle-ms = <120>;
+            key-positions = <3 4>;
         };
 
-        forwardslash {
-            bindings = <&kp SLASH>;
-            key-positions = <12 13>;
-            require-prior-idle-ms = <120>;
+        tilde-minus {
+            bindings = <&mt LS(NON_US_HASH) MINUS>;
+            key-positions = <14 15>;
         };
 
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <13 14>;
-            require-prior-idle-ms = <120>;
+        greaterthan-lessthan {
+            bindings = <&mt GREATER_THAN LESS_THAN>;
+            key-positions = <25 26>;
         };
 
-        lessthan {
-            bindings = <&kp LESS_THAN>;
-            key-positions = <23 24>;
-            require-prior-idle-ms = <120>;
-        };
-
-        greaterthan {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <24 25>;
-            require-prior-idle-ms = <120>;
-        };
-
-        minus-underscore {
-            bindings = <&mt LS(MINUS) MINUS>;
-            key-positions = <17 18>;
-            require-prior-idle-ms = <120>;
-        };
-
-        asterisk-caret {
+        caret-asterisk {
             bindings = <&mt CARET ASTERISK>;
-            key-positions = <18 19>;
-            require-prior-idle-ms = <120>;
+            key-positions = <5 6>;
         };
 
-        percent {
-            bindings = <&kp PERCENT>;
-            key-positions = <28 29>;
-            require-prior-idle-ms = <120>;
+        ampersand-plus {
+            bindings = <&mt AMPERSAND PLUS>;
+            key-positions = <16 17>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <29 30>;
-            require-prior-idle-ms = <120>;
+        percent-slash {
+            bindings = <&mt PERCENT SLASH>;
+            key-positions = <27 28>;
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        sentence-symbolcombo {
+        sentences {
             bindings = <
        &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K    &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &none  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M    &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &none
@@ -111,11 +81,11 @@
             >;
         };
 
-        higherlayer {
+        extrarows {
             bindings = <
-       &trans     &kp LC(Z)  &kp UP_ARROW  &kp LC(S)  &kp DELETE    &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&none  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp ENTER     &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &none
-       &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp CAPSLOCK  &trans              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+       &trans     &kp LC(Z)  &kp UP_ARROW  &kp LC(S)  &kp CAPSLOCK  &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&none  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE    &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &none
+       &trans     &kp LC(C)  &kp LC(X)     &kp LC(V)  &kp ENTER     &trans              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
                              &none         &trans     &trans        &trans              &trans        &none
             >;
         };

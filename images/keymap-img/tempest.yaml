@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  sentence-symbolcombo:
+  sentences:
   - {t: B, h: Sft+B}
   - {t: Y, h: Sft+Y}
   - {t: O, h: Sft+O}
@@ -35,16 +35,16 @@ layers:
   - {t: Z, h: Sft+Z}
   - ''
   - ⌫
-  - {t: ESC, h: higherlayer}
+  - {t: ESC, h: extrarows}
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
   - ''
-  higherlayer:
+  extrarows:
   - {t: ▽, type: trans}
   - Ctl+Z
   - ↑
   - Ctl+S
-  - ⌦
+  - ⇪ LOCK
   - Ctl+Alt+⌦
   - '1'
   - '2'
@@ -55,7 +55,7 @@ layers:
   - ←
   - ↓
   - →
-  - ENTER
+  - ⌦
   - BT CLR ALL
   - '4'
   - '5'
@@ -63,10 +63,10 @@ layers:
   - '0'
   - ''
   - {t: ▽, type: trans}
-  - Ctl+X
   - Ctl+C
+  - Ctl+X
   - Ctl+V
-  - ⇪ LOCK
+  - ENTER
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -81,27 +81,19 @@ layers:
 combos:
 - p: [6, 7]
   k: {t: V, h: Sft+V}
-  l: [sentence-symbolcombo]
+  l: [sentences]
 - p: [7, 8]
   k: {t: Q, h: Sft+Q}
-  l: [sentence-symbolcombo]
-- p: [1, 2]
-  k: '~'
-- p: [2, 3]
+  l: [sentences]
+- p: [3, 4]
   k: {t: £, h: Sft+4}
-- p: [12, 13]
-  k: {t: /, s: '?'}
-- p: [13, 14]
-  k: +
-- p: [23, 24]
-  k: <
-- p: [24, 25]
-  k: '>'
-- p: [17, 18]
-  k: {t: '-', h: Sft+-}
-- p: [18, 19]
+- p: [14, 15]
+  k: {t: '-', h: '~'}
+- p: [25, 26]
+  k: {t: <, h: '>'}
+- p: [5, 6]
   k: {t: '*', h: ^}
-- p: [28, 29]
-  k: '%'
-- p: [29, 30]
-  k: '='
+- p: [16, 17]
+  k: {t: +, h: '&'}
+- p: [27, 28]
+  k: {t: /, h: '%', s: '?'}
