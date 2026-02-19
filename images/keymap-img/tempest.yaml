@@ -35,43 +35,39 @@ layers:
   - {t: Z, h: Sft+Z}
   - ESC
   - ⌫
-  - extrarows
+  - {t: extrarows, h: sticky}
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   extrarows:
   - {t: ▽, type: trans}
-  - Ctl+F
+  - FIND
   - ↑
-  - Ctl+S
+  - AC SAVE
   - ⇪ LOCK
-  - 'VOL
-
-    UP'
+  - ↹
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Z
+  - UNDO
   - ←
   - ↓
   - →
   - ⌦
-  - 'VOL
-
-    DOWN'
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+C
-  - Ctl+X
-  - Ctl+V
+  - COPY
+  - CUT
+  - PASTE
   - ENTER
-  - ↹
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
