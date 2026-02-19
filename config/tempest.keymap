@@ -68,8 +68,8 @@
             require-prior-idle-ms = <120>;
         };
 
-        greaterthan-lessthan {
-            bindings = <&mt GREATER_THAN LESS_THAN>;
+        underscore-equal {
+            bindings = <&mt UNDER EQUAL>;
             key-positions = <28 27>;
             require-prior-idle-ms = <120>;
         };
@@ -83,7 +83,7 @@
        &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K    &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &none  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M    &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &none
        &mt LS(X) X  &mt NON_US_HASH LEFT_PARENTHESIS  &mt LS(SQT) RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &mt LS(W) W    &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                                      &none                          &kp BACKSPACE             &lt 1 ESCAPE                  &mt TAB SPACE  &mt LC(ENTER) ENTER  &none
+                                                      &kp ESCAPE                     &kp BACKSPACE             &sl 1                         &mt TAB SPACE  &mt LC(ENTER) ENTER  &none
             >;
         };
 

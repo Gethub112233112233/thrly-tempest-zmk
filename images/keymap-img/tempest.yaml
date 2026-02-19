@@ -33,9 +33,9 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - ''
+  - ESC
   - ⌫
-  - {t: ESC, h: extrarows}
+  - {t: extrarows, h: sticky}
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
   - ''
@@ -96,4 +96,4 @@ combos:
 - p: [16, 17]
   k: {t: £, h: Sft+4}
 - p: [28, 27]
-  k: {t: <, h: '>'}
+  k: {t: '=', h: _}
