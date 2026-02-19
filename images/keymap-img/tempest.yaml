@@ -35,12 +35,14 @@ layers:
   - {t: Z, h: Sft+Z}
   - ESC
   - ⌫
-  - {t: extrarows, h: sticky}
+  - extrarows
   - {t: ⎵, h: ↹}
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   extrarows:
-  - {t: ▽, type: trans}
+  - 'VOL
+
+    UP'
   - Ctl+Z
   - ↑
   - Ctl+S
@@ -51,7 +53,9 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - 'VOL
+
+    DOWN'
   - ←
   - ↓
   - →
@@ -62,7 +66,7 @@ layers:
   - '6'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
   - Ctl+F
   - {t: Ctl+C, h: Ctl+X}
   - Ctl+V
