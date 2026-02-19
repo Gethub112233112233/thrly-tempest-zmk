@@ -35,17 +35,17 @@ layers:
   - {t: Z, h: Sft+Z}
   - ESC
   - ⌫
-  - extrarows
+  - {t: extrarows, h: sticky}
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
-  - {t: ▽, type: trans}
+  - ↹
   extrarows:
   - {t: ▽, type: trans}
   - Ctl+F
   - ↑
   - Ctl+S
   - ⇪ LOCK
-  - ↹
+  - MUTE
   - '1'
   - '2'
   - '3'
@@ -56,7 +56,7 @@ layers:
   - ↓
   - →
   - ⌦
-  - {t: ▽, type: trans}
+  - Ctl+Alt+⌦
   - '4'
   - '5'
   - '6'
@@ -67,7 +67,7 @@ layers:
   - Ctl+X
   - Ctl+V
   - ENTER
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - '7'
   - '8'
   - '9'
