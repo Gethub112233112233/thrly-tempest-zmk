@@ -35,15 +35,15 @@ layers:
   - {t: Z, h: Sft+Z}
   - ESC
   - ⌫
-  - {t: extrarows, h: sticky}
+  - extrarows
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   extrarows:
   - {t: ▽, type: trans}
-  - FIND
+  - Ctl+F
   - ↑
-  - AC SAVE
+  - Ctl+S
   - ⇪ LOCK
   - ↹
   - '1'
@@ -51,7 +51,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UNDO
+  - Ctl+Z
   - ←
   - ↓
   - →
@@ -63,9 +63,9 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - COPY
-  - CUT
-  - PASTE
+  - Ctl+C
+  - Ctl+X
+  - Ctl+V
   - ENTER
   - {t: ▽, type: trans}
   - '7'
