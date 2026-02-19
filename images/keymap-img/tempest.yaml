@@ -36,42 +36,42 @@ layers:
   - ESC
   - ⌫
   - extrarows
-  - {t: ⎵, h: ↹}
+  - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   extrarows:
-  - 'VOL
-
-    UP'
-  - Ctl+Z
+  - {t: ▽, type: trans}
+  - Ctl+F
   - ↑
   - Ctl+S
   - ⇪ LOCK
-  - Ctl+Alt+⌦
+  - 'VOL
+
+    UP'
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - 'VOL
-
-    DOWN'
+  - Ctl+Z
   - ←
   - ↓
   - →
   - ⌦
-  - BT CLR ALL
+  - 'VOL
+
+    DOWN'
   - '4'
   - '5'
   - '6'
   - '0'
   - {t: ▽, type: trans}
-  - MUTE
-  - Ctl+F
-  - {t: Ctl+C, h: Ctl+X}
+  - {t: ▽, type: trans}
+  - Ctl+C
+  - Ctl+X
   - Ctl+V
   - ENTER
-  - {t: ▽, type: trans}
+  - ↹
   - '7'
   - '8'
   - '9'
