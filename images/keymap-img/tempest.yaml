@@ -51,7 +51,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - ''
-  - Ctl+F
+  - {t: ▽, type: trans}
   - ←
   - ↓
   - →
@@ -63,8 +63,8 @@ layers:
   - '0'
   - ''
   - {t: ▽, type: trans}
-  - Ctl+C
-  - Ctl+X
+  - Ctl+F
+  - {t: Ctl+C, h: Ctl+X}
   - Ctl+V
   - ENTER
   - {t: ▽, type: trans}

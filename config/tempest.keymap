@@ -83,10 +83,10 @@
 
         extrarows {
             bindings = <
-       &trans     &kp LC(Z)  &kp UP_ARROW  &kp LC(S)  &kp CAPSLOCK  &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&none  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE    &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &none
-       &trans     &kp LC(C)  &kp LC(X)     &kp LC(V)  &kp ENTER     &trans              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                             &none         &trans     &trans        &trans              &trans        &none
+       &trans  &kp LC(Z)  &kp UP_ARROW     &kp LC(S)  &kp CAPSLOCK  &kp LC(LA(DELETE))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&none  &trans  &kp LEFT   &kp DOWN         &kp RIGHT  &kp DELETE    &bt BT_CLR_ALL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &none
+       &trans  &kp LC(F)  &mt LC(X) LC(C)  &kp LC(V)  &kp ENTER     &trans              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                          &none            &trans     &trans        &trans              &trans        &none
             >;
         };
     };
