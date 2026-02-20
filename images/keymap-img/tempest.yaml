@@ -33,7 +33,7 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - ESC
+  - {t: ESC, h: restart}
   - ⌫
   - {t: extrarows, h: sticky}
   - ⎵
@@ -41,33 +41,33 @@ layers:
   - ↹
   extrarows:
   - {t: ▽, type: trans}
-  - Ctl+F
+  - Ctl+Z
   - ↑
   - Ctl+S
   - ⇪ LOCK
-  - MUTE
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Z
+  - {t: ▽, type: trans}
   - ←
   - ↓
   - →
   - ⌦
-  - Ctl+Alt+⌦
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+F
   - Ctl+C
-  - Ctl+X
   - Ctl+V
   - ENTER
-  - BT CLR ALL
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -75,6 +75,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  restart:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BOOT
+  - BOOT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

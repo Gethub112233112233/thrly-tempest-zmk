@@ -83,16 +83,25 @@
         &mt LS(B) B  &mt LS(Y) Y                       &mt LS(O) O                    &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K  &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I                       &mt LS(E) E                    &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M  &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
         &mt LS(X) X  &mt NON_US_HASH LEFT_PARENTHESIS  &mt LS(SQT) RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &mt LS(W) W  &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                                       &kp ESCAPE                     &kp BACKSPACE             &sl 1                         &kp SPACE    &mt LC(ENTER) ENTER  &kp TAB
+                                                       &lt 2 ESCAPE                   &kp BACKSPACE             &sl 1                         &kp SPACE    &mt LC(ENTER) ENTER  &kp TAB
             >;
         };
 
         extrarows {
             bindings = <
-        &trans     &kp LC(F)  &kp UP_ARROW  &kp LC(S)  &kp CAPSLOCK  &kp C_MUTE          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE    &kp LC(LA(DELETE))  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(C)  &kp LC(X)     &kp LC(V)  &kp ENTER     &bt BT_CLR_ALL      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans        &trans              &trans        &trans
+        &trans  &kp LC(Z)  &kp UP_ARROW  &kp LC(S)  &kp CAPSLOCK  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans  &kp LC(F)  &kp LC(C)     &kp LC(V)  &kp ENTER     &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                           &trans        &trans     &trans        &trans  &trans        &trans
+            >;
+        };
+
+        restart {
+            bindings = <
+        &trans  &trans  &trans  &trans  &sys_reset      &sys_reset   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bootloader     &bootloader  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &trans       &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans          &trans       &trans  &trans
             >;
         };
     };
