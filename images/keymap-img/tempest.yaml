@@ -33,7 +33,7 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - {t: ESC, h: Ctl+Alt+⌦}
+  - ESC
   - ⌫
   - {t: extrarows, h: sticky}
   - ⎵
