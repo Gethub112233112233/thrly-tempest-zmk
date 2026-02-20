@@ -39,31 +39,37 @@
         ampersand-plus {
             bindings = <&mt AMPERSAND PLUS>;
             key-positions = <3 4>;
+            layers = <0 1>;
         };
 
         underscore-minus {
             bindings = <&mt UNDER MINUS>;
             key-positions = <14 15>;
+            layers = <0 1>;
         };
 
         percent-slash {
             bindings = <&mt PERCENT SLASH>;
             key-positions = <25 26>;
+            layers = <0 1>;
         };
 
         caret-asterisk {
             bindings = <&mt CARET ASTERISK>;
             key-positions = <5 6>;
+            layers = <0 1>;
         };
 
         usd-gbp {
             bindings = <&mt LS(NUMBER_4) LS(NUMBER_3)>;
             key-positions = <16 17>;
+            layers = <0 1>;
         };
 
         tilde-equal {
             bindings = <&mt LS(NON_US_HASH) EQUAL>;
             key-positions = <28 27>;
+            layers = <0 1>;
         };
     };
 
