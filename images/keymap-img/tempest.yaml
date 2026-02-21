@@ -45,7 +45,7 @@ layers:
   - ↑
   - Ctl+S
   - ⇪ LOCK
-  - {t: ▽, type: trans}
+  - '&email'
   - '1'
   - '2'
   - '3'
@@ -63,8 +63,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+X
   - Ctl+C
+  - Ctl+X
   - Ctl+V
   - ENTER
   - {t: ▽, type: trans}
