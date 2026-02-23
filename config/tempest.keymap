@@ -96,9 +96,9 @@
 
         extrarows {
             bindings = <
-        &trans     &kp LC(F)  &kp UP_ARROW  &kp LC(S)  &kp DELETE    &email  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp ENTER     &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(C)  &kp LC(X)     &kp LC(V)  &kp CAPSLOCK  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+        &trans     &kp LC(Z)  &kp UP_ARROW  &kp LC(S)  &kp DELETE    &email  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp ENTER     &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp CAPSLOCK  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
                               &mo 2         &trans     &trans        &trans  &trans        &trans
             >;
         };

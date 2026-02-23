@@ -41,7 +41,7 @@ layers:
   - ↹
   extrarows:
   - {t: ▽, type: trans}
-  - Ctl+F
+  - Ctl+Z
   - ↑
   - Ctl+S
   - ⌦
@@ -51,7 +51,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Z
+  - Ctl+F
   - ←
   - ↓
   - →
@@ -63,8 +63,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+C
   - Ctl+X
+  - Ctl+C
   - Ctl+V
   - ⇪ LOCK
   - {t: ▽, type: trans}
