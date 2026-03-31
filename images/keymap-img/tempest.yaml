@@ -33,12 +33,12 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - ESC
   - ⌫
+  - ESC
   - {t: extrarows, h: sticky}
   - ⎵
-  - {t: ENTER, h: Ctl+ENTER}
   - ↹
+  - {t: ENTER, h: Ctl+ENTER}
   extrarows:
   - {t: ▽, type: trans}
   - Ctl+Y
@@ -72,8 +72,8 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - reset
   - {t: ▽, type: trans}
+  - reset
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,8 +111,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
