@@ -33,23 +33,23 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
+  - {t: ▽, type: trans}
   - ⌫
-  - ESC
-  - {t: extrarows, h: sticky}
+  - {t: ESC, h: extrarows}
   - ⎵
-  - ↹
   - {t: ENTER, h: Ctl+ENTER}
+  - {t: ▽, type: trans}
   extrarows:
   - {t: ▽, type: trans}
   - Ctl+Y
   - ↑
   - Ctl+S
   - ENTER
-  - '&email'
+  - ↹
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - '&email'
   - {t: ▽, type: trans}
   - Ctl+Z
   - ←
