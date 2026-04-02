@@ -39,21 +39,25 @@
         bootreset {
             bindings = <&sl 2>;
             key-positions = <33 34>;
+            layers = <0>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <3 4>;
+            layers = <0 1>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <14 15>;
+            layers = <0 1>;
         };
 
         slash {
             bindings = <&kp SLASH>;
             key-positions = <25 26>;
+            layers = <0 1>;
         };
     };
 
@@ -80,10 +84,10 @@
 
         extrarows {
             bindings = <
-        &trans     &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ENTER     &email   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE    &kp TAB  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(F)  &kp LC(C)     &kp LC(V)  &kp CAPSLOCK  &trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans        &trans   &trans        &trans
+        &trans     &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ENTER   &kp CAPSLOCK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &email        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(F)  &kp LC(C)     &kp LC(V)  &kp TAB     &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &trans      &trans        &trans        &trans
             >;
         };
 
