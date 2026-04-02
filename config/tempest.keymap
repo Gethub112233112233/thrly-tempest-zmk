@@ -59,6 +59,21 @@
             key-positions = <25 26>;
             layers = <0 1>;
         };
+
+        at {
+            bindings = <&kp LS(SQT)>;
+            key-positions = <6 5>;
+        };
+
+        hashtag {
+            bindings = <&kp NUHS>;
+            key-positions = <16 17>;
+        };
+
+        tilde {
+            bindings = <&kp LS(NUHS)>;
+            key-positions = <27 28>;
+        };
     };
 
     macros {
@@ -84,10 +99,10 @@
 
         extrarows {
             bindings = <
-        &trans     &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ENTER   &kp CAPSLOCK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &email        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(F)  &kp LC(C)     &kp LC(V)  &kp TAB     &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans      &trans        &trans        &trans
+        &trans     &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp TAB     &email         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(F)  &kp LC(C)     &kp LC(V)  &kp ENTER   &kp CAPSLOCK   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &trans      &trans         &trans        &trans
             >;
         };
 
