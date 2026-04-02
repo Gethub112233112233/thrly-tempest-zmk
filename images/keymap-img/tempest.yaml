@@ -138,7 +138,10 @@ combos:
   l: [sentences, extrarows]
 - p: [6, 5]
   k: Sft+'
+  l: [sentences, extrarows]
 - p: [16, 17]
   k: '#'
+  l: [sentences, extrarows]
 - p: [27, 28]
   k: Sft+#
+  l: [sentences, extrarows]
