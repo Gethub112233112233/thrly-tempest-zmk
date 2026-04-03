@@ -34,13 +34,13 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - ⌫
   - {t: ESC, h: extrarows}
+  - ⌫
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   extrarows:
-  - {t: ▽, type: trans}
+  - Ctl+Z
   - Ctl+Y
   - ↑
   - Ctl+S
@@ -51,30 +51,30 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Z
+  - Ctl+F
   - ←
   - ↓
   - →
   - ⌦
-  - ⌫
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+F
+  - Ctl+X
   - Ctl+C
   - Ctl+V
-  - ENTER
   - ⇪ LOCK
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,19 +128,19 @@ combos:
   k: {t: bootreset, h: sticky}
   l: [sentences]
 - p: [3, 4]
-  k: +
+  k: Sft+'
   l: [sentences, extrarows]
 - p: [14, 15]
-  k: '-'
+  k: '#'
   l: [sentences, extrarows]
 - p: [25, 26]
   k: {t: /, s: '?'}
   l: [sentences, extrarows]
 - p: [6, 5]
-  k: Sft+'
+  k: +
   l: [sentences, extrarows]
 - p: [16, 17]
-  k: '#'
+  k: '-'
   l: [sentences, extrarows]
 - p: [27, 28]
   k: Sft+#
