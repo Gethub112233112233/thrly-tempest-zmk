@@ -54,8 +54,8 @@
             layers = <0 1>;
         };
 
-        hashtag {
-            bindings = <&kp NUHS>;
+        slash {
+            bindings = <&kp SLASH>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
@@ -72,8 +72,8 @@
             layers = <0 1>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
+        hashtag {
+            bindings = <&kp NON_US_HASH>;
             key-positions = <27 28>;
             layers = <0 1>;
         };
@@ -102,10 +102,10 @@
 
         extrarows {
             bindings = <
-        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ESCAPE  &kp TAB       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &kp CAPSLOCK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans      &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans      &trans        &trans        &trans
+        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ESCAPE            &kp TAB       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &mt DELETE BACKSPACE  &kp CAPSLOCK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp ENTER             &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &trans                &trans        &trans        &trans
             >;
         };
 

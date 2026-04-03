@@ -55,7 +55,7 @@ layers:
   - ←
   - ↓
   - →
-  - ⌦
+  - {t: ⌫, h: ⌦}
   - ⇪ LOCK
   - '4'
   - '5'
@@ -66,7 +66,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -134,7 +134,7 @@ combos:
   k: '-'
   l: [sentences, extrarows]
 - p: [25, 26]
-  k: '#'
+  k: {t: /, s: '?'}
   l: [sentences, extrarows]
 - p: [6, 5]
   k: +
@@ -143,5 +143,5 @@ combos:
   k: £
   l: [sentences, extrarows]
 - p: [27, 28]
-  k: {t: /, s: '?'}
+  k: '#'
   l: [sentences, extrarows]
