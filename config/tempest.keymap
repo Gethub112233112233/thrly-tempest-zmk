@@ -38,12 +38,12 @@
 
         bootreset {
             bindings = <&sl 2>;
-            key-positions = <33 34>;
+            key-positions = <34 33>;
             layers = <0>;
         };
 
-        at {
-            bindings = <&kp LS(SQT)>;
+        email {
+            bindings = <&email>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
@@ -76,12 +76,6 @@
             bindings = <&kp SLASH>;
             key-positions = <27 28>;
             layers = <0 1>;
-        };
-
-        email {
-            bindings = <&email>;
-            key-positions = <4 5>;
-            layers = <0>;
         };
     };
 

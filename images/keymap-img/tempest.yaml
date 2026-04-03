@@ -124,11 +124,11 @@ combos:
 - p: [7, 8]
   k: {t: Q, h: Sft+Q}
   l: [sentences]
-- p: [33, 34]
+- p: [34, 33]
   k: {t: bootreset, h: sticky}
   l: [sentences]
 - p: [3, 4]
-  k: Sft+'
+  k: '&email'
   l: [sentences, extrarows]
 - p: [14, 15]
   k: '-'
@@ -145,6 +145,3 @@ combos:
 - p: [27, 28]
   k: {t: /, s: '?'}
   l: [sentences, extrarows]
-- p: [4, 5]
-  k: '&email'
-  l: [sentences]
