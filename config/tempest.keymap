@@ -42,38 +42,38 @@
             layers = <0>;
         };
 
-        email {
-            bindings = <&email>;
+        left1 {
+            bindings = <&kp TAB>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
 
-        minus {
-            bindings = <&kp MINUS>;
+        left2 {
+            bindings = <&kp DELETE>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
+        left3 {
+            bindings = <&kp CAPSLOCK>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
 
-        gbp {
-            bindings = <&kp LS(NUMBER_3)>;
+        right1 {
+            bindings = <&trans>;
             key-positions = <6 5>;
             layers = <0 1>;
         };
 
-        plus {
-            bindings = <&kp PLUS>;
+        right2 {
+            bindings = <&trans>;
             key-positions = <16 17>;
             layers = <0 1>;
         };
 
-        percent {
-            bindings = <&kp PERCENT>;
+        right3 {
+            bindings = <&trans>;
             key-positions = <27 28>;
             layers = <0 1>;
         };
@@ -102,10 +102,10 @@
 
         extrarows {
             bindings = <
-        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp TAB       &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp CAPSLOCK  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans        &trans  &trans        &trans
+        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &email  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &trans  &trans  &trans        &trans
             >;
         };
 
