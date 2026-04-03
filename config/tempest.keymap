@@ -102,7 +102,7 @@
 
         extrarows {
             bindings = <
-        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &email  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &trans  &email  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
 &trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
         &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
                               &trans        &trans     &trans  &trans  &trans        &trans

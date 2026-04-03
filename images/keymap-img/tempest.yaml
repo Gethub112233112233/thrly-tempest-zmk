@@ -44,8 +44,8 @@ layers:
   - Ctl+Y
   - ↑
   - Ctl+S
-  - '&email'
   - {t: ▽, type: trans}
+  - '&email'
   - '1'
   - '2'
   - '3'
