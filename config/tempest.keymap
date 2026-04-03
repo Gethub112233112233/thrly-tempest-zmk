@@ -48,14 +48,14 @@
             layers = <0 1>;
         };
 
-        hashtag {
-            bindings = <&kp NUHS>;
+        minus {
+            bindings = <&kp MINUS>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
+        hashtag {
+            bindings = <&kp NUHS>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
@@ -66,16 +66,22 @@
             layers = <0 1>;
         };
 
-        minus {
-            bindings = <&kp MINUS>;
+        gbp {
+            bindings = <&kp LS(NUMBER_3)>;
             key-positions = <16 17>;
             layers = <0 1>;
         };
 
-        tilde {
-            bindings = <&kp LS(NUHS)>;
+        slash {
+            bindings = <&kp SLASH>;
             key-positions = <27 28>;
             layers = <0 1>;
+        };
+
+        email {
+            bindings = <&email>;
+            key-positions = <4 5>;
+            layers = <0>;
         };
     };
 
@@ -102,7 +108,7 @@
 
         extrarows {
             bindings = <
-        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp TAB       &email  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp TAB       &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
 &trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
         &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp CAPSLOCK  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
                               &trans        &trans     &trans        &trans  &trans        &trans

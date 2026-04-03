@@ -45,7 +45,7 @@ layers:
   - ↑
   - Ctl+S
   - ↹
-  - '&email'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -131,17 +131,20 @@ combos:
   k: Sft+'
   l: [sentences, extrarows]
 - p: [14, 15]
-  k: '#'
+  k: '-'
   l: [sentences, extrarows]
 - p: [25, 26]
-  k: {t: /, s: '?'}
+  k: '#'
   l: [sentences, extrarows]
 - p: [6, 5]
   k: +
   l: [sentences, extrarows]
 - p: [16, 17]
-  k: '-'
+  k: £
   l: [sentences, extrarows]
 - p: [27, 28]
-  k: Sft+#
+  k: {t: /, s: '?'}
   l: [sentences, extrarows]
+- p: [4, 5]
+  k: '&email'
+  l: [sentences]
