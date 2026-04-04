@@ -35,7 +35,7 @@ layers:
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
   - ⌫
-  - {t: extrarows, h: sticky}
+  - extrarows
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
