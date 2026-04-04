@@ -44,19 +44,19 @@ layers:
   - Ctl+Y
   - ↑
   - Ctl+S
-  - {t: ▽, type: trans}
   - '&email'
+  - +
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - '*'
   - {t: ▽, type: trans}
   - Ctl+F
   - ←
   - ↓
   - →
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - '4'
   - '5'
   - '6'
@@ -67,11 +67,11 @@ layers:
   - Ctl+C
   - Ctl+V
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: /, s: '?'}
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -128,16 +128,16 @@ combos:
   k: {t: bootreset, h: sticky}
   l: [sentences]
 - p: [3, 4]
-  k: ↹
+  k: ESC
   l: [sentences, extrarows]
 - p: [14, 15]
-  k: ⌦
+  k: ↹
   l: [sentences, extrarows]
 - p: [25, 26]
-  k: ⇪ LOCK
+  k: ⌦
   l: [sentences, extrarows]
 - p: [6, 5]
-  k: {t: ▽, type: trans}
+  k: ⇪ LOCK
   l: [sentences, extrarows]
 - p: [16, 17]
   k: {t: ▽, type: trans}
