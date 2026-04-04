@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+F
-  - {t: C, h: Ctl+X}
+  - {t: Ctl+C, h: Ctl+X}
   - Ctl+V
   - {t: ▽, type: trans}
   - {t: /, s: '?'}
