@@ -40,7 +40,7 @@ layers:
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   extrarows:
-  - Ctl+Z
+  - {t: ▽, type: trans}
   - Ctl+Y
   - ↑
   - Ctl+S
@@ -51,7 +51,7 @@ layers:
   - '3'
   - '*'
   - {t: ▽, type: trans}
-  - Ctl+F
+  - Ctl+Z
   - ←
   - ↓
   - →
@@ -63,8 +63,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+X
-  - Ctl+C
+  - Ctl+F
+  - {t: C, h: Ctl+X}
   - Ctl+V
   - {t: ▽, type: trans}
   - {t: /, s: '?'}
