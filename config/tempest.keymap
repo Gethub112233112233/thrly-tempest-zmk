@@ -43,37 +43,37 @@
         };
 
         left1 {
-            bindings = <&kp ESCAPE>;
+            bindings = <&trans>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
 
         left2 {
-            bindings = <&kp TAB>;
+            bindings = <&trans>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
         left3 {
-            bindings = <&kp DELETE>;
+            bindings = <&trans>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
 
         right1 {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&kp PLUS>;
             key-positions = <6 5>;
             layers = <0 1>;
         };
 
         right2 {
-            bindings = <&trans>;
+            bindings = <&kp MINUS>;
             key-positions = <16 17>;
             layers = <0 1>;
         };
 
         right3 {
-            bindings = <&trans>;
+            bindings = <&kp SLASH>;
             key-positions = <27 28>;
             layers = <0 1>;
         };
@@ -102,10 +102,10 @@
 
         extrarows {
             bindings = <
-        &trans     &kp LC(Y)  &kp UP_ARROW     &kp LC(S)  &email  &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN         &kp RIGHT  &trans  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(F)  &mt LC(X) LC(C)  &kp LC(V)  &trans  &kp SLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL
-                              &trans           &trans     &trans  &trans     &trans        &trans
+        &trans     &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp TAB     &email  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp ESCAPE  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &trans      &trans  &trans        &trans
             >;
         };
 
