@@ -376,8 +376,8 @@ path.combo {
 </g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#extrarows">
-<text x="0" y="0" class="key tap layer-activator">extrarows</text>
+<a href="#numbersarrows">
+<text x="0" y="0" class="key tap layer-activator">numbersarrows</text>
 </a></g>
 <g transform="translate(536, 255) rotate(-30.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -435,8 +435,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 349)" class="layer-extrarows">
-<text x="0" y="28" class="label" id="extrarows">extrarows</text>
+<g transform="translate(30, 349)" class="layer-numbersarrows">
+<text x="0" y="28" class="label" id="numbersarrows">numbersarrows</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -460,7 +460,9 @@ path.combo {
 </g>
 <g transform="translate(622, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;email</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⇪</tspan><tspan x="0" dy="1.2em">LOCK</tspan>
+</text>
 </g>
 <g transform="translate(678, 39)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -474,9 +476,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">3</text>
 </g>
-<g transform="translate(859, 75) rotate(8.0)" class="key trans keypos-9">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(859, 75) rotate(8.0)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&amp;email</text>
 </g>
 <g transform="translate(32, 156) rotate(-8.0)" class="key trans keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

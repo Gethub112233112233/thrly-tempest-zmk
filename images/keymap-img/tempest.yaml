@@ -35,21 +35,21 @@ layers:
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
   - ⌫
-  - extrarows
+  - numbersarrows
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
-  extrarows:
+  numbersarrows:
   - {t: ▽, type: trans}
   - Ctl+Y
   - ↑
   - Ctl+S
   - ↹
-  - '&email'
+  - ⇪ LOCK
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - '&email'
   - {t: ▽, type: trans}
   - Ctl+Z
   - ←
@@ -129,19 +129,19 @@ combos:
   l: [sentences]
 - p: [3, 4]
   k: {t: ▽, type: trans}
-  l: [sentences, extrarows]
+  l: [sentences, numbersarrows]
 - p: [14, 15]
   k: {t: ▽, type: trans}
-  l: [sentences, extrarows]
+  l: [sentences, numbersarrows]
 - p: [25, 26]
   k: {t: ▽, type: trans}
-  l: [sentences, extrarows]
+  l: [sentences, numbersarrows]
 - p: [6, 5]
   k: +
-  l: [sentences, extrarows]
+  l: [sentences, numbersarrows]
 - p: [16, 17]
   k: '-'
-  l: [sentences, extrarows]
+  l: [sentences, numbersarrows]
 - p: [27, 28]
   k: {t: /, s: '?'}
-  l: [sentences, extrarows]
+  l: [sentences, numbersarrows]
