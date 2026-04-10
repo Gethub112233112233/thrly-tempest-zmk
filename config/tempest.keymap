@@ -37,7 +37,7 @@
         };
 
         bootreset {
-            bindings = <&sl 2>;
+            bindings = <&mo 2>;
             key-positions = <34 33>;
             layers = <0>;
         };
@@ -102,10 +102,10 @@
 
         numbersarrows {
             bindings = <
-        &trans     &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp TAB     &kp CAPSLOCK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp ESCAPE  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans      &trans        &trans        &trans
+        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ESCAPE          &email        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LA(LC(DELETE))  &kp TAB       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp DELETE          &kp CAPSLOCK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &trans              &trans        &trans        &trans
             >;
         };
 
