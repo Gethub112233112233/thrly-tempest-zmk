@@ -43,37 +43,37 @@
         };
 
         left1 {
-            bindings = <&trans>;
+            bindings = <&kp ESCAPE>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
 
         left2 {
-            bindings = <&trans>;
+            bindings = <&kp DELETE>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
         left3 {
-            bindings = <&trans>;
+            bindings = <&kp LA(LC(DELETE))>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
 
         right1 {
-            bindings = <&kp PLUS>;
+            bindings = <&kp TAB>;
             key-positions = <6 5>;
             layers = <0 1>;
         };
 
         right2 {
-            bindings = <&kp MINUS>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <16 17>;
             layers = <0 1>;
         };
 
         right3 {
-            bindings = <&kp SLASH>;
+            bindings = <&trans>;
             key-positions = <27 28>;
             layers = <0 1>;
         };
@@ -102,10 +102,10 @@
 
         numbersarrows {
             bindings = <
-        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ESCAPE          &email        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE          &kp TAB       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp LA(LC(DELETE))  &kp CAPSLOCK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans              &trans        &trans        &trans
+        &kp LC(Z)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &trans  &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
+&trans  &kp LC(F)  &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans  &kp SLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                              &trans        &trans     &trans  &trans     &trans        &trans
             >;
         };
 
