@@ -35,7 +35,7 @@ layers:
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
   - ⌫
-  - {t: numbersarrows, h: sticky}
+  - numbersarrows
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
@@ -44,7 +44,7 @@ layers:
   - Ctl+Y
   - ↑
   - Ctl+S
-  - {t: ESC, h: Alt+Ctl+⌦}
+  - ESC
   - '&email'
   - '1'
   - '2'
@@ -55,8 +55,8 @@ layers:
   - ←
   - ↓
   - →
+  - ⌦
   - ↹
-  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
@@ -73,7 +73,7 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌦
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
