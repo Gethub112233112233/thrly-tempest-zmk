@@ -36,11 +36,11 @@ layers:
   - ESC
   - ⌫
   - numbersarrows
+  - {t: ▽, type: trans}
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
-  - {t: ▽, type: trans}
   numbersarrows:
-  - Gui+F
+  - ⌘Z
   - Gui+Sft+Z
   - ↑
   - Gui+S
@@ -51,7 +51,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌘Z
+  - Gui+F
   - ←
   - ↓
   - →
