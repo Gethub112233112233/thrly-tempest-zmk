@@ -5,7 +5,7 @@ layers:
   - {t: Y, h: Sft+Y}
   - {t: O, h: Sft+O}
   - {t: U, h: Sft+U}
-  - {t: '''', h: Sft+2}
+  - {t: '''', h: '@'}
   - {t: K, h: Sft+K}
   - {t: D, h: Sft+D}
   - {t: C, h: Sft+C}
@@ -26,47 +26,47 @@ layers:
   - {t: X, h: Sft+X}
   - (
   - )
-  - {t: ., h: ':'}
-  - {t: '?', h: Sft+!}
+  - {t: ., h: Sft+;}
+  - {t: '?', h: '!'}
   - {t: W, h: Sft+W}
   - {t: G, h: Sft+G}
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - {t: ▽, type: trans}
+  - ESC
   - ⌫
-  - {t: numbersarrows, h: sticky}
+  - numbersarrows
   - ⎵
   - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   numbersarrows:
-  - Ctl+F
-  - Ctl+Y
+  - Gui+F
+  - Gui+Sft+Z
   - ↑
-  - Ctl+S
-  - ESC
+  - Gui+S
   - ↹
+  - '&email'
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Z
+  - ⌘Z
   - ←
   - ↓
   - →
   - ⌦
-  - ⇪ LOCK
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Alt+Ctl+⌦
+  - ⌘X
+  - ⌘C
+  - ⌘V
+  - ⇪ LOCK
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -128,20 +128,20 @@ combos:
   k: bootreset
   l: [sentences]
 - p: [3, 4]
-  k: '&email'
+  k: +
   l: [sentences, numbersarrows]
 - p: [14, 15]
-  k: '#'
+  k: '-'
   l: [sentences, numbersarrows]
 - p: [25, 26]
-  k: {t: /, s: '?'}
+  k: {t: ▽, type: trans}
   l: [sentences, numbersarrows]
 - p: [6, 5]
   k: '*'
   l: [sentences, numbersarrows]
 - p: [16, 17]
-  k: +
+  k: {t: /, s: '?'}
   l: [sentences, numbersarrows]
 - p: [27, 28]
-  k: '-'
+  k: {t: ▽, type: trans}
   l: [sentences, numbersarrows]

@@ -43,19 +43,19 @@
         };
 
         left1 {
-            bindings = <&email>;
+            bindings = <&kp PLUS>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
 
         left2 {
-            bindings = <&kp NON_US_HASH>;
+            bindings = <&kp MINUS>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
         left3 {
-            bindings = <&kp SLASH>;
+            bindings = <&trans>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
@@ -67,13 +67,13 @@
         };
 
         right2 {
-            bindings = <&kp PLUS>;
+            bindings = <&kp SLASH>;
             key-positions = <16 17>;
             layers = <0 1>;
         };
 
         right3 {
-            bindings = <&kp MINUS>;
+            bindings = <&trans>;
             key-positions = <27 28>;
             layers = <0 1>;
         };
@@ -83,7 +83,7 @@
         email: email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(SQT) &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            bindings = <&kp LS(NUMBER_2) &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
         };
     };
@@ -93,19 +93,19 @@
 
         sentences {
             bindings = <
-        &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U               &mt LS(NUMBER_2) SQT          &mt LS(K) K  &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
-&trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A               &mt SEMICOLON COMMA           &mt LS(M) M  &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
-        &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMICOLON) PERIOD  &mt LS(EXCLAMATION) QUESTION  &mt LS(W) W  &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                           &trans                 &kp BACKSPACE             &sl 1                         &kp SPACE    &mt LC(ENTER) ENTER  &trans
+        &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K  &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
+&trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M  &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
+        &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMI) PERIOD  &mt EXCLAMATION QUESTION        &mt LS(W) W  &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
+                                           &kp ESCAPE             &kp BACKSPACE        &mo 1                           &kp SPACE    &mt LC(ENTER) ENTER  &trans
             >;
         };
 
         numbersarrows {
             bindings = <
-        &kp LC(F)  &kp LC(Y)  &kp UP_ARROW  &kp LC(S)  &kp ESCAPE          &kp TAB       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE          &kp CAPSLOCK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp LA(LC(DELETE))  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                              &trans        &trans     &trans              &trans        &trans        &trans
+        &kp LG(F)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp TAB       &email  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LG(Z)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp DELETE    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp CAPSLOCK  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans        &trans  &trans        &trans
             >;
         };
 
