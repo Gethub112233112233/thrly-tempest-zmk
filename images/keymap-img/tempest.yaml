@@ -34,10 +34,10 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - ESC
-  - ⌫
   - numbersarrows
-  - {t: ▽, type: trans}
+  - ⌫
   - ⎵
+  - numbersarrows
   - {t: ENTER, h: Ctl+ENTER}
   numbersarrows:
   - ⌘Z
@@ -73,8 +73,8 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
