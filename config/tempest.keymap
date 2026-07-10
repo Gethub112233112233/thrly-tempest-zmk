@@ -73,7 +73,7 @@
         };
 
         right3 {
-            bindings = <&trans>;
+            bindings = <&kp PERCENT>;
             key-positions = <27 28>;
             layers = <0 1>;
         };
@@ -102,10 +102,10 @@
 
         numbersarrows {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp TAB       &email  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp DELETE    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp CAPSLOCK  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans     &trans        &trans  &trans        &trans
+        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp TAB         &email            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp LG(DELETE)  &kp LS(NUMBER_4)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp CAPSLOCK    &trans            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans          &trans            &trans        &trans
             >;
         };
 

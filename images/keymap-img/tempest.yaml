@@ -55,8 +55,8 @@ layers:
   - ←
   - ↓
   - →
-  - ⌦
-  - {t: ▽, type: trans}
+  - Gui+⌦
+  - Sft+4
   - '4'
   - '5'
   - '6'
@@ -143,5 +143,5 @@ combos:
   k: {t: /, s: '?'}
   l: [sentences, numbersarrows]
 - p: [27, 28]
-  k: {t: ▽, type: trans}
+  k: '%'
   l: [sentences, numbersarrows]
