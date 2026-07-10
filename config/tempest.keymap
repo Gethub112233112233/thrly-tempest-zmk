@@ -102,14 +102,14 @@
 
         arrowsnumbers {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp TAB       &email            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp DELETE    &kp LS(NUMBER_3)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp CAPSLOCK  &trans            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans     &trans        &trans            &trans        &trans
+        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp TAB            &email            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp LG(BACKSPACE)  &kp LS(NUMBER_3)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp CAPSLOCK       &trans            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans             &trans            &trans        &trans
             >;
         };
 
-        bootreset {
+        resetboot {
             bindings = <
         &trans  &trans  &trans  &trans  &sys_reset      &sys_reset   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &bootloader     &bootloader  &trans  &trans  &trans  &trans  &trans

@@ -55,7 +55,7 @@ layers:
   - ←
   - ↓
   - →
-  - ⌦
+  - Gui+⌫
   - £
   - '4'
   - '5'
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  bootreset:
+  resetboot:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -125,7 +125,7 @@ combos:
   k: {t: Q, h: Sft+Q}
   l: [sentences]
 - p: [34, 33]
-  k: bootreset
+  k: resetboot
   l: [sentences]
 - p: [3, 4]
   k: +
