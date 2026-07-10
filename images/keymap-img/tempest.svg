@@ -372,8 +372,8 @@ path.combo {
 </g>
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#numbersarrows">
-<text x="0" y="0" class="key tap layer-activator">numbersarrows</text>
+<a href="#arrowsnumbers">
+<text x="0" y="0" class="key tap layer-activator">arrowsnumbers</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -385,8 +385,8 @@ path.combo {
 </g>
 <g transform="translate(593, 230) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#numbersarrows">
-<text x="0" y="0" class="key tap layer-activator">numbersarrows</text>
+<a href="#arrowsnumbers">
+<text x="0" y="0" class="key tap layer-activator">arrowsnumbers</text>
 </a></g>
 <g transform="translate(655, 221)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -435,8 +435,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 349)" class="layer-numbersarrows">
-<text x="0" y="28" class="label" id="numbersarrows">numbersarrows</text>
+<g transform="translate(30, 349)" class="layer-arrowsnumbers">
+<text x="0" y="28" class="label" id="arrowsnumbers">arrowsnumbers</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -504,7 +504,7 @@ path.combo {
 </g>
 <g transform="translate(622, 104)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">#</text>
+<text x="0" y="0" class="key tap">Sft+#</text>
 </g>
 <g transform="translate(678, 95)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

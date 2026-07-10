@@ -34,12 +34,12 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - ESC
-  - numbersarrows
+  - arrowsnumbers
   - ⌫
   - ⎵
-  - numbersarrows
+  - arrowsnumbers
   - {t: ENTER, h: Ctl+ENTER}
-  numbersarrows:
+  arrowsnumbers:
   - ⌘Z
   - Gui+Sft+Z
   - ↑
@@ -56,7 +56,7 @@ layers:
   - ↓
   - →
   - ⌦
-  - '#'
+  - Sft+#
   - '4'
   - '5'
   - '6'
@@ -129,19 +129,19 @@ combos:
   l: [sentences]
 - p: [3, 4]
   k: +
-  l: [sentences, numbersarrows]
+  l: [sentences, arrowsnumbers]
 - p: [14, 15]
   k: '-'
-  l: [sentences, numbersarrows]
+  l: [sentences, arrowsnumbers]
 - p: [25, 26]
   k: {t: ▽, type: trans}
-  l: [sentences, numbersarrows]
+  l: [sentences, arrowsnumbers]
 - p: [6, 5]
   k: '*'
-  l: [sentences, numbersarrows]
+  l: [sentences, arrowsnumbers]
 - p: [16, 17]
   k: {t: /, s: '?'}
-  l: [sentences, numbersarrows]
+  l: [sentences, arrowsnumbers]
 - p: [27, 28]
   k: '%'
-  l: [sentences, numbersarrows]
+  l: [sentences, arrowsnumbers]
