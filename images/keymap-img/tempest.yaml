@@ -45,18 +45,18 @@ layers:
   - ↑
   - Gui+S
   - ↹
-  - '&email'
+  - £
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - '&email'
   - {t: ▽, type: trans}
   - Gui+F
   - ←
   - ↓
   - →
-  - ⇪ LOCK
-  - £
+  - ⌦
+  - {t: ',', s: <}
   - '4'
   - '5'
   - '6'
@@ -66,8 +66,8 @@ layers:
   - ⌘X
   - ⌘C
   - ⌘V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⇪ LOCK
+  - .
   - '7'
   - '8'
   - '9'
