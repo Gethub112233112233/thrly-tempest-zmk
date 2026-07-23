@@ -44,9 +44,9 @@ layers:
   - Gui+Sft+Z
   - ↑
   - Gui+S
-  - ↹
-  - £
-  - '1'
+  - +
+  - '*'
+  - {t: '1', h: £}
   - '2'
   - '3'
   - '&email'
@@ -55,8 +55,8 @@ layers:
   - ←
   - ↓
   - →
-  - ⌦
-  - {t: ▽, type: trans}
+  - '-'
+  - {t: /, s: '?'}
   - '4'
   - '5'
   - '6'
@@ -66,8 +66,8 @@ layers:
   - ⌘X
   - ⌘C
   - ⌘V
-  - ⇪ LOCK
-  - {t: ▽, type: trans}
+  - '#'
+  - '%'
   - '7'
   - '8'
   - '9'
@@ -128,20 +128,24 @@ combos:
   k: resetboot
   l: [sentences]
 - p: [3, 4]
-  k: +
+  k: ↹
   l: [sentences, arrowsnumbers]
 - p: [14, 15]
-  k: '-'
+  k: ⇪ LOCK
   l: [sentences, arrowsnumbers]
 - p: [25, 26]
-  k: {t: ▽, type: trans}
+  k: Sft+Gui+4
   l: [sentences, arrowsnumbers]
 - p: [6, 5]
-  k: '*'
+  k: 'VOL
+
+    UP'
   l: [sentences, arrowsnumbers]
 - p: [16, 17]
-  k: {t: /, s: '?'}
+  k: 'VOL
+
+    DOWN'
   l: [sentences, arrowsnumbers]
 - p: [27, 28]
-  k: '%'
+  k: MUTE
   l: [sentences, arrowsnumbers]
