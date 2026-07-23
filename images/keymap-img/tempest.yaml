@@ -134,7 +134,7 @@ combos:
   k: ⇪ LOCK
   l: [sentences, arrowsnumbers]
 - p: [25, 26]
-  k: Gui+Sft+4
+  k: {t: ▽, type: trans}
   l: [sentences, arrowsnumbers]
 - p: [6, 5]
   k: 'VOL
@@ -147,5 +147,5 @@ combos:
     DOWN'
   l: [sentences, arrowsnumbers]
 - p: [27, 28]
-  k: MUTE
+  k: Gui+Sft+4
   l: [sentences, arrowsnumbers]
