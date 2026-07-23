@@ -66,7 +66,7 @@ layers:
   - ⌘X
   - ⌘C
   - ⌘V
-  - '#'
+  - \
   - '%'
   - '7'
   - '8'
@@ -134,7 +134,7 @@ combos:
   k: ⇪ LOCK
   l: [sentences, arrowsnumbers]
 - p: [25, 26]
-  k: Sft+Gui+4
+  k: Gui+Sft+4
   l: [sentences, arrowsnumbers]
 - p: [6, 5]
   k: 'VOL
